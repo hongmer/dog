@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>PetsInfoManage</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.LoginServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>usersListServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.UsersListServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>usersSaveServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.UsersSaveServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>usersDeleteServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.UsersDeleteServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>petsAdopListServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.PetsAdopListServlet</servlet-class>
+  </servlet>
+  
+
+   <servlet>
+  	<servlet-name>petsAdopDeleteServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.PetsAdopDeleteServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>petsAdopSaveServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.PetsAdopSaveServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+  	<servlet-name>petsSaveListServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.PetsSaveListServlet</servlet-class>
+  </servlet>
+  
+
+   <servlet>
+  	<servlet-name>petsSaveDeleteServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.PetsSaveDeleteServlet</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>petsSaveSaveServlet</servlet-name>
+  	<servlet-class>edu.hunnu.web.PetsSaveSaveServlet</servlet-class>
+  </servlet>
+  
+
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>usersListServlet</servlet-name>
+  	<url-pattern>/usersList</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>usersDeleteServlet</servlet-name>
+  	<url-pattern>/usersDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>usersSaveServlet</servlet-name>
+  	<url-pattern>/usersSave</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>petsAdopListServlet</servlet-name>
+  	<url-pattern>/petsAdopList</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>petsAdopDeleteServlet</servlet-name>
+  	<url-pattern>/petsAdopDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>petsAdopSaveServlet</servlet-name>
+  	<url-pattern>/petsAdopSave</url-pattern>
+  </servlet-mapping>
+  
+ <servlet-mapping>
+  	<servlet-name>petsSaveListServlet</servlet-name>
+  	<url-pattern>/petsSaveList</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>petsSaveDeleteServlet</servlet-name>
+  	<url-pattern>/petsSaveDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>petsSaveSaveServlet</servlet-name>
+  	<url-pattern>/petsSaveSave</url-pattern>
+  </servlet-mapping>
+</web-app>

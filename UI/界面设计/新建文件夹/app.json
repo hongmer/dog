@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/personal/personal",
+    "pages/home/home",
+    "pages/welcome/welcome"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#FF79BC"
+  }
+}

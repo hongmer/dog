@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-field": "/dist/field/index"
+  },
+  "van-tabbar": "/dist/tabbar/index",
+  "van-tabbar-item": "/dist/tabbar-item/index"
+}

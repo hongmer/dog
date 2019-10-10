@@ -1,0 +1,27 @@
+<view>
+  <view class='op-container'>
+   <view class='op-left' bindtap="lookingForHelp">
+     <image class='op-img' src='/images/求助入口.png'></image>
+     <text class='op-text'>求助</text>
+   </view>
+   <view class='op-right' bindtap="willingToAdopt">
+     <image class='op-img' src='/images/领养入口.png'></image>
+     <text class='op-text'>领养</text>
+   </view>
+  </view>
+<view class='home-container'>
+   <view class='home-author'>
+     <image class='home-author-image' src='/images/头像.png'></image>
+     <text class='home-author-name' >女孩子</text>
+   </view>
+   <text class='home-title' >领养咨询</text>
+   <image class='home-news-image' src='/images/消息.png'></image>
+   <text class='home-news' >小宠物已经三个多月，会吃猫粮，用猫砂，性格开朗温顺！无偿赠送，养了就对它负责，不随意伤人，接受偶尔的回访就行！</text>
+  <view class='home-like-container'>
+    <image class='home-like-image' src='/images/chat.png'></image>
+    <text class='home-like-font' >10</text>
+    <image class='home-like-image' src='/images/chat1.png'></image>
+    <text class='home-like-font'>12</text>
+  </view> 
+</view>
+</view>

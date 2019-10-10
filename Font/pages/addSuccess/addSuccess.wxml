@@ -1,0 +1,8 @@
+<!--pages/addSuccess/addSuccess.wxml-->
+<view class='addSuccess-container'>
+    <view class='text-container'>
+        <text>发布成功!</text>
+    </view>
+    <van-button plain type="primary" class='buttonLeft' size='large' bindtap="returnMine">查看个人中心</van-button>
+    <van-button plain type="primary" class='buttonRight' size='large' bindtap="returnHome">返回主页面</van-button>
+</view>

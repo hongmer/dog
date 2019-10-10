@@ -1,0 +1,95 @@
+.personal-op{
+  display: flex;
+  flex-direction:row;
+  margin-top: 10rpx;
+  margin-bottom: 40rpx;
+  background-color:#FFD9EC;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.op-left{
+  text-align: left;
+  height: 150rpx;
+}
+.personal-data{
+  font-size: 34rpx;
+  font-weight: 400;
+  color: #333;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.op-center{
+align-content:  center;
+}
+.op-image{
+ margin-top: 10rpx;
+  width: 150rpx;
+  height: 150rpx;
+ 
+}
+.op-right{
+  text-align: right;
+  height: 150rpx;
+}
+.op-introduction{
+  font-size: 34rpx;
+  font-weight: 400;
+  color: #333;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.home-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  background-color:#FFD9EC;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+.biaozhu{
+  font-size: 22rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #405f80
+}
+.home-author{
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  margin-left: 10rpx;
+}
+.home-author-image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.home-author-name{
+ margin-left: 20rpx;
+ vertical-align: middle;
+ margin-bottom: 5px;
+ font-size: 26rpx;
+}
+.home-title{
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #333;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.home-news-image{
+
+}
+.home-news{
+
+}
+.home-like-container{
+  
+}
+.home-like-image{
+
+}
+.home-like-font{
+
+}

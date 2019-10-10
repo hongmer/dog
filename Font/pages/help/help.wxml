@@ -1,0 +1,35 @@
+<view>
+  <view class='in'>
+    <!-- 搜索框搜索页面待实现 取消逻辑待实现 -->
+    <view class='op-container'>
+      <view class='op-left' bindtap="lookingForHelp">
+        <image class='op-img' src='/images/求助入口.png'></image>
+      </view>
+    </view>
+    <view class='op-lr'>
+      <van-search value="{{ value }}" placeholder="请输入搜索关键词" show-action bind:search="onSearch" bind:cancel="onCancel" />
+    </view>
+  </view>
+  <block wx:for="{{posts_key}}">
+    <!-- 这里是每一篇文章 应该要跳转对应的文章详情 -->
+    <view class='post-container' bindtap="lookingForDetail">
+      <view class='post-author-date'>
+        <!-- 这里是第一行的头像 -->
+        <image class='post-author' src="{{item.avatar}}"></image>
+        <text class='post-date'>{{item.date}}</text>
+      </view>
+      <text class='post-title'>{{item.title}}</text>
+      <image class='post-image' src="{{item.imgSrc}}"></image>
+      <text class='post-content'>{{item.content}}</text>
+    </view>
+  </block>
+  <view>
+    <!-- 这里是标签栏 -->
+    <van-tabbar>
+      <!-- 点主页没有响应 点发布和我的跳转到对应的页面 -->
+      <van-tabbar-item icon="home-o">主页</van-tabbar-item>
+      <van-tabbar-item icon="add-o" bindtap="goToAdd">发布</van-tabbar-item>
+      <van-tabbar-item icon="user-o" bindtap="goToUser">我的</van-tabbar-item>
+    </van-tabbar>
+  </view>
+</view>

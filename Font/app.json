@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/help/help",
+    "pages/adopt/adopt",
+    "pages/add/add",
+    "pages/addSuccess/addSuccess",
+    "pages/userpageO/userpageO",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/revise/revise",
+    "pages/submitted/submitted",
+    "pages/reviseSuccess/reviseSuccess"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTitleText": "流浪猫狗"
+  },
+  "sitemapLocation": "sitemap.json"
+}

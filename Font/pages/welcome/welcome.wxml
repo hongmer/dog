@@ -1,0 +1,7 @@
+<view class='container'>
+    <image class='user-avatar' src="/images/小程序图标.png"></image>
+    <text class='app-name'>欢迎使用流浪猫狗救助平台！</text>
+    <view class='moto-container'  bindtap="onTap">
+        <text class='moto'>进入首页</text>
+    </view>
+</view>

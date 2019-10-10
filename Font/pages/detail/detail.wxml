@@ -1,0 +1,25 @@
+<!--pages/detail.wxml-->
+<view class='detail-container' >
+  <view class='detail-author-date' bindtap='goToUser'>
+    <image class='detail-author' src='{{detailData.author}}'></image>
+    <text class='user-name'>{{detailData.name}}</text>
+  </view>
+  <view class='detail-textAndImage'>
+    <!-- 这里是标题 内容 图片的内容 <text class='detail-content'>{{detailData.content}}</text> -->
+    <text class='detail-title'>{{detailData.title}}</text>
+   
+    <rich-text class="detail-content" nodes="{{detailData.content}}"></rich-text>
+
+    <image class='detail-image' src='{{detailData.detail}}'></image>
+  </view>
+  <view class='detail-button' bindtap="popupOpen">
+    <van-button plain type="primary" size='large'>立即预约</van-button>
+  </view>
+</view>
+<view class='button-container'>
+  <van-popup show="{{ show }}">
+    <text>对方联系方式\ntel:136xxxxxxxx</text>
+    <van-button plain type="primary" class='buttonLeft' size='large' bindtap="popupClose">放弃预约</van-button>
+    <van-button plain type="primary" class='buttonRight' size='large' bindtap="popupClose">确定预约</van-button>
+  </van-popup>
+</view>

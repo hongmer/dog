@@ -1,0 +1,25 @@
+/* pages/add/add.wxss */
+@import "/weui.wxss";
+
+.radio-group {
+  border-bottom: 1px solid #ddd;
+}
+
+.radio {
+  display: block;
+  border-top: 1px solid #ddd;
+  padding: 5px;
+}
+
+.add-intro {
+  border: 10rpx green;
+}
+
+.page-section-gap {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}

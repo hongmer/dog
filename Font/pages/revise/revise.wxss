@@ -1,0 +1,45 @@
+.revise-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 15rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+
+.revise-image {
+  margin-top: 5rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.revise-text {
+  margin-left: 10rpx;
+  font-size: 40rpx;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moto-container {
+  align-items: center;
+  margin-top: 200rpx;
+  border: 1px solid #405f80;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+.moto {
+  font-size: 22rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #405f80;
+}

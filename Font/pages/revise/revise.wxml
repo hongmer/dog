@@ -1,0 +1,44 @@
+<view>
+  <!--用户头像信息-->
+  <view class='revise-frame'>
+    <text class='revise-text'>用户头像：</text>
+    <image class='revise-image' src='{{userimage}}'></image>
+  </view>
+  <!--用户文字信息-->
+  <view class='revise-frame'>
+    <text class='revise-text'>用户名：</text>
+    <van-cell-group>
+      <van-field value="{{value}}" placeholder="{{username}}" border="{{false}}" bind:change="onChange" />
+    </van-cell-group>
+  </view>
+  <view class='revise-frame'>
+    <text class='revise-text'>性别：</text>
+    <van-cell-group>
+      <van-field value="{{value}}" placeholder="{{usersex}}" border="{{false}}" bind:change="onChange" />
+    </van-cell-group>
+  </view>
+  <view class='revise-frame'>
+    <text class='revise-text'>现居地：</text>
+    <van-cell-group>
+      <van-field value="{{value}}" placeholder="{{userlocal}}" border="{{false}}" bind:change="onChange" />
+    </van-cell-group>
+  </view>
+  <view class='revise-frame'>
+    <text class='revise-text'>电话：</text>
+    <van-cell-group>
+      <van-field value="{{value}}" placeholder="{{usertel}}" border="{{false}}" bind:change="onChange" />
+    </van-cell-group>
+  </view>
+  <view class='revise-frame'>
+    <text class='revise-text'>个人简介：</text>
+    <van-cell-group>
+      <van-field value="{{value}}" placeholder="{{userword}}" border="{{false}}" bind:change="onChange" />
+    </van-cell-group>
+  </view>
+  <!--保存框-->
+  <view class='container'>
+    <view class='moto-container' bindtap="onTap">
+      <text class='moto' bindtap="onteztop">保存</text>
+    </view>
+  </view>
+</view>

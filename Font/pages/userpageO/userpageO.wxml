@@ -1,0 +1,47 @@
+<!--pages/userpageO/userpageO.wxml-->
+<view>
+  <view class='userinfo-container'>
+    <!-- 这里放一个框 里面按照原型的排列 左边是头像右边是个人简介 -->
+    <view class='op-left'>
+      <!-- 这里是左边的部分  为头像-->
+      <image class='op-image' src='{{userimage}}'></image>
+    </view>
+    <view class='op-leftO'>
+      <!-- 这里是文字介绍 -->
+      <text class='op-right'>用户名：{{username}}\n  性别：{{usersex}}  现居地：{{userlocal}}\n  个人简介:{{userword}}</text>
+    </view>
+    <view class='moto-container' bindtap="onTap">
+      <text class='moto' bindtap="onteztop">修改个人信息</text>
+    </view>
+  </view>
+  <text>已发布\n</text>
+  <block wx:for="{{posts_key}}">
+      <view>
+        <!-- 这里放的是已发布的内容 -->
+        <view class='post-container' bindtap="lookingForDetail">
+          <view class='post-author-date'>
+            <!-- 这里是第一行的头像 -->
+            <image class='post-author' src="{{item.avatar}}"></image>
+            <text class='post-date'>{{item.date}}</text>
+          </view>
+          <text class='post-title'>{{item.title}}</text>
+          <image class='post-image' src="{{item.imgSrc}}"></image>
+          <text class='post-content'>{{item.content}}</text>
+        </view>
+       </view>
+    </block>
+    <!-- 这里放的是已预约的内容 -->
+    <text>已预约</text>
+    <block wx:for="{{posts_key}}">
+      <view class='post-container' bindtap="lookingForDetail">
+        <view class='post-author-date'>
+          <!-- 这里是第一行的头像 -->
+          <image class='post-author' src="{{item.avatar}}"></image>
+          <text class='post-date'>{{item.date}}</text>
+        </view>
+        <text class='post-title'>{{item.title}}</text>
+        <image class='post-image' src="{{item.imgSrc}}"></image>
+        <text class='post-content'>{{item.content}}</text>
+      </view>
+    </block>
+</view>

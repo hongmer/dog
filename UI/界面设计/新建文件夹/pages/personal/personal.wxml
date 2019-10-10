@@ -1,0 +1,28 @@
+
+<view class='personal-op' >
+ <view class='op-left' >
+   <text class='personal-data' >姓名：fresh年龄：18 性别：女</text>
+ </view>
+ <view class='op-center' >
+   <image class='op-image' src='/images/头像.png'></image>
+ </view>
+ <view class='op-right' >
+   <text class='op-introduction' >个人简介：热情开朗，致力于动物保护，坚信领养最终会代替购买</text>
+ </view>
+</view>
+<view class='home-container'>
+<text class='biaozhu' >已发布的</text>
+   <view class='home-author'>
+     <image class='home-author-image' src='/images/头像.png'></image>
+     <text class='home-author-name' >女孩子</text>
+   </view>
+   <text class='home-title' >领养咨询</text>
+   <image class='home-news-image' src='/images/消息.png'></image>
+   <text class='biaozhu' >小宠物已经三个多月，会吃猫粮，用猫砂，性格开朗温顺！无偿赠送，养了就对它负责，不随意伤人，接受偶尔的回访就行！</text>
+  <view class='home-like-container'>
+    <image class='home-like-image' src='/images/chat.png'></image>
+    <text class='home-like-font' >10</text>
+    <image class='home-like-image' src='/images/chat1.png'></image>
+    <text class='home-like-font'>12</text>
+  </view> 
+</view>

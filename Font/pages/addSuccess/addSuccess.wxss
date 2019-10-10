@@ -1,0 +1,33 @@
+/* pages/addSuccess/addSuccess.wxss */
+
+.addSuccess-container {
+  text-align: center; /*让div内部文字居中*/
+  background-color: #fff;
+  border-radius: 20px;
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.buttonLeft {
+  float: left;
+  width: 50%;
+}
+
+.buttonRight {
+  float: right;
+  width: 50%;
+}
+
+.text-container {
+  font-size: 80rpx;
+  text-align: center;
+  border-style: solid;
+  border-width: 2rpx;
+  border-color: green;
+}

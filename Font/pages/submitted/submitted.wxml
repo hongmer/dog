@@ -1,0 +1,23 @@
+<!--pages/detail.wxml-->
+<view class='detail-container'>
+    <view class='detail-author-date' bindtap='goToUser'>
+        <image class='detail-author' src='{{img.author_img}}'></image>
+        <text class='user-name'>{{name}}</text>
+    </view>
+    <view class='detail-textAndImage'>
+    <!-- 这里是标题 内容 图片的内容 -->
+        <text class='detail-title'>{{title}}</text>
+        <text class='detail-content'>{{content}}</text>
+        <image class='detail-image' src='{{img.detail_img}}'></image>
+    </view>
+    <view class='detail-button' bindtap="popupOpen">
+        <van-button plain type="primary" size='large'>立即预约</van-button>
+    </view>
+</view>
+<view class='button-container'>
+    <van-popup show="{{ show }}">
+    <text>不可预约自己发布信息</text>
+    <van-button plain type="primary" class='buttonLeft' size='large' bindtap="popupClose1">返回主页</van-button>
+    <van-button plain type="primary" class='buttonRight' size='large' bindtap="popupClose2">返回个人中心</van-button>
+    </van-popup>
+</view>
